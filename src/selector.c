@@ -37,7 +37,7 @@ void selector(int* dist, int* abl) {
 }
 
 SDL_bool addtolists(node *lists[5]){
-    FILE *fp = fopen("sources/stats.txt","r");
+    FILE *fp = fopen("./stats.txt","r");
     if(fp == NULL)return SDL_FALSE;
     for (int i = 0; i < 5; ++i) {
         lists[i] = (node*)calloc(sizeof(node),1);

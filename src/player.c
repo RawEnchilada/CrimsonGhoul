@@ -26,7 +26,7 @@ SDL_bool timer(int delay,Uint32 *tagp){
 void mainfunc(SDL_bool* screenrunning){
     condition = 0;
 
-    file = fopen("sources/stats.txt","w");
+    file = fopen("./stats.txt","w");
 
     fprintf(file,"smash_kills\n%d\nstomp_kills\n%d\ncrack_kills\n%d\narea_kills\n%d\npoke_kills\n%d\n---\n",kills[0],kills[1],kills[2],kills[3],kills[4]);
 

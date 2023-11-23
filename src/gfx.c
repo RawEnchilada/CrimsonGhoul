@@ -84,16 +84,16 @@ void init(){
     SDL_SetRenderDrawBlendMode(screen.renderer, SDL_BLENDMODE_ADD);
 
     SDL_SetRenderDrawColor(screen.renderer,0,0,0,0);
-    SDL_Surface* charsrfc = SDL_LoadBMP("sources/character.bmp");
-    SDL_Surface* background = SDL_LoadBMP("sources/background.bmp");
-    SDL_Surface* bosssrfc = SDL_LoadBMP("sources/boss.bmp");
-    SDL_Surface* hpbarsurf = SDL_LoadBMP("sources/Healthbar.bmp");
-    SDL_Surface* menusrf = SDL_LoadBMP("sources/menu.bmp");
-    SDL_Surface* buttonsrf = SDL_LoadBMP("sources/buttons.bmp");
-    victorysrf = SDL_LoadBMP("sources/victory.bmp");
-    losesrf = SDL_LoadBMP("sources/lose.bmp");
+    SDL_Surface* charsrfc = SDL_LoadBMP("assets/character.bmp");
+    SDL_Surface* background = SDL_LoadBMP("assets/background.bmp");
+    SDL_Surface* bosssrfc = SDL_LoadBMP("assets/boss.bmp");
+    SDL_Surface* hpbarsurf = SDL_LoadBMP("assets/Healthbar.bmp");
+    SDL_Surface* menusrf = SDL_LoadBMP("assets/menu.bmp");
+    SDL_Surface* buttonsrf = SDL_LoadBMP("assets/buttons.bmp");
+    victorysrf = SDL_LoadBMP("assets/victory.bmp");
+    losesrf = SDL_LoadBMP("assets/lose.bmp");
 
-    controlssrf = SDL_LoadBMP("sources/controls.bmp");
+    controlssrf = SDL_LoadBMP("assets/controls.bmp");
     darkensrf = SDL_CreateRGBSurface(0,640,380,24,0x00,0x0,0x0,0x80);
 
     SDL_Surface* framesrfc = SDL_CreateRGBSurface(0,154,10,24,0x00,0x00,0x00,0x00);
